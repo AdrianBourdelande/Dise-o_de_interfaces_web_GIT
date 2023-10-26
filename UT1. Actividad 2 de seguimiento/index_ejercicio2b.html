@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un típico y complejo formulario</title>
+</head>
+<body>
+    <h3>Un típico y complejo formulario</h3>
+    <table align="center"  border="2">
+        <tr>
+            <td width="105px">Nombre:</td>
+            <td>
+                <input type="text">
+                <label>F.Nac.: </label><input type="date">
+                <label>DNI: </label><input type="text" size="9">
+            </td>
+        </tr>
+        <tr>
+            <td>Apellidos:</td>
+            <td>
+                <input type="text" size="50">
+            </td>
+        </tr>
+        <tr>
+            <td>Calle y número:</td>
+            <td>
+                <input type="text" size="50">
+            </td>
+        </tr>
+        <tr>
+            <td>Código Postal:</td>
+            <td>
+                <input type="text" size="5">
+                <label>Ciudad: </label><input type="text" size="30">
+                
+            </td>
+        </tr>
+        <tr>
+            <td>Provincia:</td>
+            <td>
+                <input type="text">
+                <label>Teléfono: </label><input type="tel">
+            </td>
+        </tr>
+        <tr>
+            <td>Opción:</td>
+            <td>
+                <select name="opcion">
+                    <option value="opcion1">OPCION 1</option>
+                    <option value="opcion2">OPCION 2</option>
+                    <option value="opcion3">OPCION 3</option>
+                </select>
+                <label>Escoja una opción</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Comentarios personales:</td>
+            <td><textarea name="textarea" cols="60" rows="2"></textarea></td>
+        </tr>
+        <tr>
+            <td><b>Pulse aquí: </b></td>
+            <td align="center">
+                <input type="submit" value="Enviar datos">
+                <input type="reset" value="Borrar los datos">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
