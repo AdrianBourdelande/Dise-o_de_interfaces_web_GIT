@@ -10,3 +10,5 @@ Generar una tabla como la del ejemplo presentada por el profesor
 Generar un formulario como el del ejemplo presentado por el profesor
 ## Unidad 2 // Actividad 1 de seguimiento
 Generar un archivo CSS, enlazarlo con el archivo HTML y darle los estilos necesarios para tener adquirir la apariencia mostrada en la imagen  Enunciado.JPG
+## Unidad 2 // Actividad 2 de seguimiento
+Crear un archivo CSS para generar un interface lo más parecido al mostrado en el enunciado
