@@ -1,0 +1,47 @@
+article{
+    background-color: black;
+    border: 5px solid grey;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
+article>img{
+    border-radius: 20px;
+    margin-right: 30px;
+    width: 38%;
+}
+article>p{
+    line-height: 1.5em;
+    text-indent: 2em;
+    width: 59%;
+}
+button{
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 3px;
+    font-family: 'Black Ops One', sans-serif; 
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3{
+    margin-left: 2%;
+}
+span{
+    font-size: 1.5em;
+    margin-left: -35px;
+}
+section{
+    background-color: color;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+}

@@ -1,0 +1,37 @@
+button{
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 3px;
+    font-family: 'Black Ops One', sans-serif; 
+    font-size: 20px;
+    margin-left: 42%;
+    margin-right: 42%;
+    width: 100%;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#form{
+    background-color: black;
+    border: 5px solid grey;
+    border-radius: 15px;
+    font-size: 25px;
+    padding-bottom: 30px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+}
+textarea, input, select{    
+    font-size: 20px;
+    font-style: italic;
+}
+textarea{
+    border-radius: 30px;
+    padding: 10px;
+}
+
