@@ -1,0 +1,77 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: rgb(255, 229, 99);
+  font-size: 50px;
+  margin: auto;
+}
+body h1 {
+  box-shadow: 30px 25px 25px rgb(147, 40, 40);
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+nav {
+  text-align: center;
+  margin: 80px;
+}
+nav ul li {
+  margin: 20px;
+}
+nav ul li a {
+  color: rgb(94, 94, 94);
+  text-decoration: none;
+  box-shadow: 4px 4px 4px rgb(1, 5, 255);
+}
+
+/*# sourceMappingURL=styles.css.map */

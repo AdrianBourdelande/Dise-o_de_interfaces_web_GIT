@@ -1,0 +1,55 @@
+@import '_reset';
+@import '_mixin';
+$colorPrincipal: rgb(255, 229, 99);
+$colorSecundario: rgb(206, 254, 32);
+$colorEnlaces: rgb(94, 94, 94);
+$tamanoPrincipal: 50px;
+$tamanoSecundario: 30px;
+$tamanoFactor: 20px;
+$margenPrincipal: auto;
+$margenSecundario: 20px;
+$theme: principal;
+body{
+    @if $theme == principal{
+        background-color: $colorPrincipal;
+        font-size: $tamanoPrincipal;
+        margin: $margenPrincipal;
+        h1{
+            @include box-shadow(30px 25px 25px rgb(147, 40, 40));
+            font-size: $tamanoPrincipal + $tamanoFactor;
+            text-align: center;
+            margin: $margenPrincipal;
+            width: 80%;
+        }
+    }@else{
+        background-color: $colorSecundario;
+        font-size: $tamanoSecundario;
+        margin: $margenSecundario;
+        h1{
+            @include box-shadow(10px 5px 5px rgb(19, 46, 0));
+            font-size: $tamanoSecundario + $tamanoFactor;
+            text-align: center;
+            margin: $margenPrincipal;
+            width: 80%;
+        }
+    }
+}
+nav{
+    text-align: center;
+    margin: 80px;
+    ul{
+        li{
+            margin: $margenSecundario;
+            a{
+                color: $colorEnlaces;
+                text-decoration: none;
+                
+                @include box-shadow(4px 4px 4px rgb(1, 5, 255));
+
+            }
+        }
+    }
+}
+
+    
+   
